@@ -1,0 +1,14 @@
+<<<<<<<<<<<<<<< Library Management System >>>>>>>>>>>>>>>
+
+<<-- BACKEND -->>
+- All the books Informations
+- Add/Remove/Edit/Serach books
+- All the Authors Informations
+- Add/Remove/Edit/Search Authors
+- Admins/Users
+- Authorization
+- IO/Database
+
+<<-- FRONTEND -->>
+- Command Line Interface
+- Graphical User Interface
