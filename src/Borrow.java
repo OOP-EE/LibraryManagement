@@ -28,6 +28,9 @@ public class Borrow {
         else return false;
     }
 
+    //Date
+    // Calender
+
     private Date addDateToReturned(int numOfDays){
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(this.dateReturned);

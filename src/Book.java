@@ -1,3 +1,5 @@
+import com.google.gson.Gson;
+
 import java.util.HashMap;
 import java.util.HashSet;
 
@@ -11,6 +13,12 @@ public class Book {
     private int dateReleased;
     private HashSet<Author> authors;
 
+
+    public Book(int isbn, String name) {
+        this.isbn = isbn;
+        this.name = name;
+    }
+
     public Book(int isbn, String name, Publication publicationId, int dateReleased, HashSet<Author> authors) {
         this.isbn = isbn;
         this.name = name;
@@ -18,5 +26,6 @@ public class Book {
         this.dateReleased = dateReleased;
         this.authors = authors;
         bookShelf.add(this);
+
     }
 }
